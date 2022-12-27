@@ -26,6 +26,7 @@
     padding: 180px 0 100px 0;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg);
     background-size: cover;
+    color:white;
     text-align: center;
   }
   
@@ -34,10 +35,12 @@
     letter-spacing: 5px;
     margin-bottom: 10px;
     font-family: sans-serif;
+    color:white;
   }
   
   .top-wrapper p {
     margin-bottom: 3px;
+    color:white;
   }
   
   .btn-wrapper {
@@ -90,7 +93,8 @@
   
   .logo {
     width: 124px;
-    margin-top: 0px;
+    margin: 0;
+    padding: 0;
   }
   
   .header-left {
