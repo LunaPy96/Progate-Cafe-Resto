@@ -31,7 +31,6 @@
   }
   
   .top-wrapper h1 {
-    opacity: 0.9;
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
@@ -39,7 +38,6 @@
   }
   
   .top-wrapper p {
-    opacity: 0.9;
     margin-bottom: 3px;
   }
   
