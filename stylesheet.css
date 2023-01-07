@@ -126,7 +126,8 @@
     font-size: 25px;
     padding: 21px 0;
     /* Gantikan property display ke none */
-    display:none;
+    cursor: pointer;
+    display: none;
   }
   
   
@@ -196,16 +197,73 @@
     box-shadow: none;
   }
   
-  footer img {
-    width: 125px;
+ 
+  /* footer by rizki */
+  
+  footer{
+    position: relative;
+    background: rgba(34, 49, 52, 0.9);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color:#b3aeb5;
   }
   
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+  
+  footer img{
+    width: 100px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    cursor: pointer;
   }
   
-  footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+  footer img:hover{
+    opacity:0.3;
+  }
+  
+  .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  .col h3{
+    color: #fff;
+    width:fit-content;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .col .links a{
+    display: block;
+    text-decoration: none;
+    color:#b3aeb5;
+    margin-bottom: 15px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  
+  .col .links a:hover{
+    color: #16213E;
+  }
+  
+  .footer-bottom{
+      background: #2C3333;
+      width: 100vw;
+      height: 55px;
+      padding: 10px 0;
+      text-align: center;
+  }
+  .footer-bottom p{
+      font-size: 14px;
+      word-spacing: 2px;
+      text-transform: capitalize;
   }
